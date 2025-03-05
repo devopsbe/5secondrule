@@ -45,16 +45,16 @@ export function PlaceholderImage({
 
 // HOC to wrap an Image component with placeholder fallback
 export function withPlaceholder(Component: typeof Image) {
-  return function WithPlaceholder(props: any) {
+  return function WithPlaceholder(props: React.ComponentProps<typeof Image>) {
     const [error, setError] = React.useState(false);
 
     if (error) {
       return (
         <PlaceholderImage
-          width={props.width || 800}
-          height={props.height || 600}
-          className={props.className}
-          alt={props.alt || "Image placeholder"}
+          width={props.width as number || 800}
+          height={props.height as number || 600}
+          className={props.className as string}
+          alt={props.alt as string || "Image placeholder"}
         />
       );
     }
