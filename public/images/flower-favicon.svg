@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="248" fill="white"/>
+  
+  <!-- Flower petals in brand colors -->
+  <!-- Top petal -->
+  <ellipse cx="256" cy="120" rx="100" ry="140" fill="#FF6699" />
+  
+  <!-- Right petal -->
+  <ellipse cx="392" cy="256" rx="100" ry="140" transform="rotate(90 392 256)" fill="#70C1FF" />
+  
+  <!-- Bottom petal -->
+  <ellipse cx="256" cy="392" rx="100" ry="140" fill="#B5E61D" />
+  
+  <!-- Left petal -->
+  <ellipse cx="120" cy="256" rx="100" ry="140" transform="rotate(90 120 256)" fill="#FF914D" />
+  
+  <!-- Center circle -->
+  <circle cx="256" cy="256" r="75" fill="#7D3C98" />
+  
+  <!-- Smiling face -->
+  <ellipse cx="225" cy="235" rx="15" ry="20" fill="white" />
+  <ellipse cx="287" cy="235" rx="15" ry="20" fill="white" />
+  <path d="M225 280 Q256 310 287 280" stroke="white" stroke-width="8" fill="none" />
+</svg> 
