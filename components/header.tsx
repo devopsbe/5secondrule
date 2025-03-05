@@ -47,6 +47,12 @@ export function Header() {
             <Link href="/contact" className="text-deep-purple hover:text-bubblegum-pink transition-colors font-medium">
               Contact
             </Link>
+            <Link href="/examples" className="text-deep-purple hover:text-bubblegum-pink transition-colors font-medium relative">
+              Examples
+              <span className="absolute -top-2 -right-2 bg-bubblegum-pink text-white text-xs px-1 rounded-full">
+                New
+              </span>
+            </Link>
           </nav>
 
           {/* Desktop Actions */}
@@ -156,6 +162,16 @@ export function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               Contact
+            </Link>
+            <Link
+              href="/examples"
+              className="py-3 px-4 hover:bg-muted rounded-md font-medium flex items-center"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Examples
+              <span className="ml-2 bg-bubblegum-pink text-white text-xs px-1 rounded-full">
+                New
+              </span>
             </Link>
             <div className="flex space-x-4 mt-4 px-4">
               <a
