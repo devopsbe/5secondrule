@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import { Button, ButtonProps } from '@/components/ui/button';
 import { Search, Bookmark, Filter, Clock, ShoppingCart, Heart } from 'lucide-react';
